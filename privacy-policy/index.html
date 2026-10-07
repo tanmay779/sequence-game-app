@@ -29,7 +29,10 @@
 
 <h3>a. Personal Information</h3>
 <ul>
-  <li>Name and email address (only if you sign in using Google)</li>
+  <li>If you sign in with Google: your name, email address and profile photo</li>
+  <li>If you sign in with Facebook: your name, email address and profile photo (from your public profile)</li>
+  <li>The playing name you choose in the app</li>
+  <li>A profile photo, only if you choose to upload one from your device's photo gallery</li>
 </ul>
 
 <h3>b. Anonymous Information</h3>
@@ -41,12 +44,15 @@
 <h3>c. Game Data</h3>
 <ul>
   <li>Game progress, moves, scores, and session data</li>
+  <li>Coins, levels, rewards, achievements, statistics and tournament entries</li>
 </ul>
 
 <h3>d. Device Information</h3>
 <ul>
   <li>Device type, OS version, and app version</li>
   <li>Crash logs and performance data</li>
+  <li>Your approximate country, determined from your IP address (used for the country flag on leaderboards)</li>
+  <li>A push notification token, only if you allow notifications</li>
 </ul>
 
 <h3>e. Advertising Data</h3>
@@ -59,6 +65,8 @@
 <ul>
   <li>Enable gameplay and multiplayer functionality</li>
   <li>Identify users and maintain sessions</li>
+  <li>Show your playing name, profile photo, country flag and scores to other players on leaderboards and in multiplayer games</li>
+  <li>Send game notifications (for example daily rewards and tournaments), if you allow them</li>
   <li>Improve app performance and stability</li>
   <li>Fix bugs and monitor usage trends</li>
   <li>Show optional rewarded video ads, grant their rewards, and measure ad performance</li>
@@ -69,12 +77,29 @@
 
 <p><strong>Firebase (by Google)</strong></p>
 <ul>
-  <li>Authentication (Google Sign-In, Anonymous login)</li>
+  <li>Authentication (Google Sign-In, Facebook Login, Anonymous login)</li>
   <li>Cloud Firestore / Realtime Database (game data)</li>
-  <li>Analytics and Crash Reporting</li>
+  <li>Cloud Storage (profile photos you upload)</li>
+  <li>Cloud Messaging (push notifications)</li>
+  <li>Analytics, Crash Reporting and Performance Monitoring</li>
 </ul>
 
 <p>Firebase may collect and process data according to its own privacy policies.</p>
+
+<p><strong>Facebook Login (by Meta)</strong></p>
+<ul>
+  <li>Used only if you choose to sign in with Facebook. Meta shares your name, email address and profile photo with us, and processes data according to the <a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a>.</li>
+</ul>
+
+<p><strong>Google Play Games Services (Android)</strong></p>
+<ul>
+  <li>Used for achievements and leaderboards, according to the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+</ul>
+
+<p><strong>Country lookup services</strong></p>
+<ul>
+  <li>To show your country flag, the app sends a request to an IP-based country lookup service (country.is or GeoJS), which receives your IP address and returns only your country.</li>
+</ul>
 
 <p><strong>Google AdMob (by Google)</strong></p>
 <ul>
@@ -88,7 +113,9 @@
 <h2>4. Data Sharing</h2>
 <p>We do not sell or rent your personal data.</p>
 <ul>
+  <li>Your playing name, profile photo, country flag and game statistics are visible to other players (for example on leaderboards and in multiplayer games)</li>
   <li>Data may be shared with Firebase to provide app functionality</li>
+  <li>If you sign in with Facebook, sign-in data is exchanged with Meta</li>
   <li>Advertising data may be shared with Google AdMob and its advertising partners to show and measure ads</li>
   <li>Data may be shared if required by law</li>
 </ul>
@@ -105,6 +132,9 @@
   <li>Watching ads is optional; you can play the full game without watching any</li>
   <li>You can reset or delete your advertising ID, or opt out of personalised ads, in your device settings (on Android: Settings &gt; Google &gt; Ads, or Settings &gt; Privacy &gt; Ads)</li>
   <li>If you are in the European Economic Area, the UK or Switzerland, you can change your ad consent choice at any time from "Ad privacy settings" in the app's Watch &amp; Earn screen</li>
+  <li>You can turn off push notifications at any time in your device settings</li>
+  <li>You can change or remove your uploaded profile photo in the app</li>
+  <li>You can ask us to delete your account and associated data by emailing us at the address below</li>
   <li>You may stop using the app at any time</li>
 </ul>
 
